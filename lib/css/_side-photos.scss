@@ -1,0 +1,25 @@
+.side-photos {
+  height: 550px;
+  padding-top: 50px;
+  position: absolute;
+  overflow-x: hidden;
+  top: 50px;
+  width: 100%;
+}
+
+.portfolio-snapshot {
+  @include photo-format;
+  height: 400px;
+  right: -130px;
+  transform: rotate(-8deg);
+  z-index: 2;
+}
+
+.fake-photo {
+  @include photo-format;
+  background: #353539;
+  height: 400px;
+  right: -130px;
+  transform: rotate(-15deg);
+  z-index: 1;
+}

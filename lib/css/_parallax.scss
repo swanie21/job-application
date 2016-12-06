@@ -1,0 +1,49 @@
+.img-1, .img-2, .img-3, .img-4, .img-5 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  opacity: 0.75;
+  position: relative;
+}
+
+.img-1 {
+  background-image: url('./img/australia.png');
+}
+
+.img-2 {
+  background-image: url('./img/korea.png');
+}
+
+.img-3 {
+  background-image: url('./img/taiwan.png');
+}
+
+.img-4 {
+  background-image: url('./img/thailand.png');
+}
+
+.img-5 {
+  background-image: url('./img/cambodia.png');
+}
+
+.photo-description {
+  background-color: $off-white-color;
+  padding: 60px;
+  text-align: left;
+}
+
+.last-photo-description {
+  padding: 60px 0 0 60px;
+}
+
+@media screen and (max-width: 420px) {
+  h4 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .photo-description, .last-photo-description {
+    padding: 40px 0 40px 0;
+  }
+}

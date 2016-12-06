@@ -1,0 +1,13 @@
+@mixin photo-format {
+  border: 8px solid #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 600px;
+}
+
+@mixin paragraph-format {
+  color: #404040;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  line-height: 30px;
+}
