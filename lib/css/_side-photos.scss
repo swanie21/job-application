@@ -12,7 +12,12 @@
   height: 400px;
   right: -130px;
   transform: rotate(-8deg);
+  transition: 0.5s;
   z-index: 2;
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
 }
 
 .fake-photo {

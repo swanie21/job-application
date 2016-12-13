@@ -14,7 +14,12 @@
   display: block;
   height: 450px;
   margin: 20px 0;
+  transition: 0.5s;
   width: 500px;
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
 }
 
 .family{
